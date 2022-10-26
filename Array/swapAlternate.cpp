@@ -7,10 +7,10 @@ using namespace std;
 int main()
 {
     int n;
-    cout<<"Enter the size";
+    cout<<"Enter the size: ";
     cin>>n;
     int a[n],i,temp;
-    cout<<"Enter elements";
+    cout<<"Enter elements:"<<endl;
     for(i=0;i<n;i++){
         cin>>a[i];
     }
@@ -21,6 +21,6 @@ int main()
     }
     cout<<"Swapped"<<endl;
     for(i=0;i<n;i++){
-        cout<<a[i];
+        cout<<" "<<a[i];
     }
 }
